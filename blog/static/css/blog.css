@@ -1,13 +1,25 @@
 h1 a {
   /*  background-color: #35ACDF*/
     color: #FCA205;
-    font-family: 'Amatic SC', cursive, bold;
-    font-size: 100pt
+    font-family: 'Amatic SC';
+    font-size: 60pt;
+
+}
+
+h2 {
+  /*  background-color: #35ACDF*/
+    font-family: 'Lato';
+    font-size: 15pt;
+    text-align: left;
+    margin-left: 20px;
+    margin-top:20px;
+
 
 }
 
 body {
-    padding-left: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .page-header {
@@ -18,26 +30,42 @@ body {
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #ffffff;
-    font-size: 50pt;
+    font-size: 55pt;
     text-decoration: none;
-    text-align: center;
+    text-align: left;
+    font-family: 'Titillium Web';
 }
 
 .content {
-    margin-left: 40px;
+    margin-center: 40px;
 }
 
-h2, {
-    font-family: 'Lobster';
-    font-size: 60pt;
-    text-align: center;
+.post a:link, .post a.visited {
+    padding-left: 15px;
+    text-align: left;
+    display: block;
+    font-family: 'Amatic SC';
+    font-size: 45pt;   
 }
 
-
-h3, {
-    font-family: 'Arial';
-    font-size: 10pt;
+.post {
+    padding-left: 15px;
+    text-align: left;
+    display: block;
+    font-family: 'Amatic SC';
+    font-size: 45pt;   
 }
+
+.date {
+    padding-left: 15px;
+    text-align: left;
+    font-family: arial;
+    font-size: 11pt;
+    display: block;
+    margin: 4pt; 
+    color: #000000;
+}
+
 .date {
     color: #828282;
 }
